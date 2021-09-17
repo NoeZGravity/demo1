@@ -1,0 +1,111 @@
+/*  PC */
+@media (min-width: 1024px) {
+    #silder{
+        min-height: 500px;
+    }
+    .column .column-full{
+        margin-top: 8px;
+    }
+
+}
+@media (max-width: 1023px) {
+    .place-buy{
+        padding: 15px 16px;
+    }
+   
+    
+    
+}
+/*  Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    #content .content-s{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .place-img{
+        width: 236px;
+    }
+    .column .column-full{
+        margin-top: 8px;
+    }
+    #footer .footer-brand{
+        font-size: 30px;
+        margin: 0 16px;
+    }
+    
+
+}
+
+/*  Moblie */
+@media (max-width: 740px) {
+    #header{
+        overflow: hidden;
+    }
+    #header .search-button{
+        display: none;
+    }
+    #header .menu-btn {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li{
+        display: block;
+        
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    
+    .member-avatar{
+        width: auto;
+        height: 400px;
+    }
+    
+    #content .content-s{
+        padding-left: 16px;
+        padding-right:16px;
+    }
+    #content .member-item{
+        width: 100%;
+    }
+    .place-img{
+        width: 100%;
+    }
+    .place-item{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .place-buy{
+        width: 100%;
+        text-align: center;
+    }
+    .ti-email{
+        margin-bottom: 32px;
+    }
+    .contact-info{
+        width: 100%;
+        line-height: 2;
+    }
+    .contact-info a{
+        opacity: 0.8;
+    }
+    .contact-info a:hover{
+        opacity: 1;
+        color: red;
+    }
+    .form-submit,
+    .column-half{
+        width: 100%;
+    }
+    .row .form-control{
+        margin-top: 8px;
+    }
+
+}
